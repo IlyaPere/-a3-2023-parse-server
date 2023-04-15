@@ -10,7 +10,7 @@ var FilesController = require('../src/Controllers/FilesController').default;
 describe_only_db('mongo')("GridStoreAdapter",() =>{
   it("should properly instanciate the GridStore when deleting a file", (done) => {
 
-    var databaseURI = 'mongodb://localhost:27017/parse';
+    var databaseURI = 'mongodb+srv://jimmylaxer32:AttackLax67439472@cluster0-ygp1j.mongodb.net/test?retryWrites=true';
     var config = new Config(Parse.applicationId);
     var gridStoreAdapter = new GridStoreAdapter(databaseURI);
     var filesController = new FilesController(gridStoreAdapter);

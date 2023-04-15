@@ -167,8 +167,8 @@ describe('server', () => {
   it('can create a parse-server v1', done => {
     var parseServer = new ParseServer.default(Object.assign({},
       defaultConfiguration, {
-      appId: "aTestApp",
-      masterKey: "aTestMasterKey",
+      appId: "igt.inc.050119.a3",
+      masterKey: "84874869383674748592",
       serverURL: "http://localhost:12666/parse",
       __indexBuildCompletionCallbackForTests: promise => {
         promise
@@ -200,8 +200,8 @@ describe('server', () => {
     let server
     let parseServer = ParseServer.ParseServer(Object.assign({},
       defaultConfiguration, {
-      appId: "anOtherTestApp",
-      masterKey: "anOtherTestMasterKey",
+      appId: "igt.inc.050119.a3",
+      masterKey: "84874869383674748592",
       serverURL: "http://localhost:12667/parse",
       __indexBuildCompletionCallbackForTests: promise => {
         promise
