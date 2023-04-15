@@ -127,7 +127,7 @@ var ParseServer = require('parse-server').ParseServer;
 var app = express();
 
 var api = new ParseServer({
-  databaseURI: 'mongodb+srv://jimmylaxer32:AttackLax67439472@cluster0-ygp1j.mongodb.net/test?retryWrites=true', // Connection string for your MongoDB database
+  databaseURI: 'mongodb://localhost:27017/dev', // Connection string for your MongoDB database
   cloud: '/home/myApp/cloud/main.js', // Absolute path to your Cloud Code
   appId: 'igt.inc.050119.a3',
   masterKey: '84874869383674748592', // Keep this key secret!
