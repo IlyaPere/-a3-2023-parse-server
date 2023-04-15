@@ -2,7 +2,7 @@
 
 const MongoStorageAdapter = require('../src/Adapters/Storage/Mongo/MongoStorageAdapter');
 const MongoClient = require('mongodb').MongoClient;
-const databaseURI = 'mongodb://localhost:27017/parseServerMongoAdapterTestDatabase';
+const databaseURI = 'mongodb+srv://jimmylaxer32:AttackLax67439472@cluster0-ygp1j.mongodb.net/test?retryWrites=true';
 
 // These tests are specific to the mongo storage adapter + mongo storage format
 // and will eventually be moved into their own repo
