@@ -6,7 +6,6 @@ const databaseURI = 'mongodb+srv://jimmylaxer32:AttackLax67439472@cluster0-ygp1j
 
 // These tests are specific to the mongo storage adapter + mongo storage format
 // and will eventually be moved into their own repo
-
 describe_only_db('mongo')('MongoStorageAdapter', () => {
   beforeEach(done => {
     new MongoStorageAdapter({ uri: databaseURI })
